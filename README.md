@@ -1,2 +1,2 @@
-# samplesite
-A Hugo based sample site
+# documentation
+A Hugo based site that covers the documentation of SSGAAS.
