@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SSGAAS Documentation</title>
-    <link>http://docs.ssgaas.com/index.xml</link>
+    <link>http://mysite.com:8080/blog/index.xml</link>
     <description>Recent content on SSGAAS Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Feb 2017 22:11:55 +0100</lastBuildDate>
-    <atom:link href="http://docs.ssgaas.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://mysite.com:8080/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>reference</title>
-      <link>http://docs.ssgaas.com/reference/</link>
+      <link>http://mysite.com:8080/blog/reference/</link>
       <pubDate>Thu, 02 Feb 2017 22:11:55 +0100</pubDate>
       
-      <guid>http://docs.ssgaas.com/reference/</guid>
+      <guid>http://mysite.com:8080/blog/reference/</guid>
       <description>
 
 &lt;h1 id=&#34;reference&#34;&gt;Reference&lt;/h1&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>howtos</title>
-      <link>http://docs.ssgaas.com/howtos/</link>
+      <link>http://mysite.com:8080/blog/howtos/</link>
       <pubDate>Thu, 02 Feb 2017 22:11:15 +0100</pubDate>
       
-      <guid>http://docs.ssgaas.com/howtos/</guid>
+      <guid>http://mysite.com:8080/blog/howtos/</guid>
       <description>
 
 &lt;h1 id=&#34;howtos&#34;&gt;HowTos&lt;/h1&gt;
@@ -55,10 +55,10 @@
     
     <item>
       <title>quickstart</title>
-      <link>http://docs.ssgaas.com/quickstart/</link>
+      <link>http://mysite.com:8080/blog/quickstart/</link>
       <pubDate>Thu, 02 Feb 2017 22:07:20 +0100</pubDate>
       
-      <guid>http://docs.ssgaas.com/quickstart/</guid>
+      <guid>http://mysite.com:8080/blog/quickstart/</guid>
       <description>
 
 &lt;h1 id=&#34;quick-start&#34;&gt;Quick Start&lt;/h1&gt;
