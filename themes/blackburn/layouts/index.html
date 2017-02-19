@@ -6,7 +6,6 @@
 </div>
 
 <div class="content">
-  foo baaaaaaaaaaaaar
   {{ range ( .Paginate (where .Data.Pages "Type" "post")).Pages }}
     {{ .Render "summary"}}
   {{ end }}
