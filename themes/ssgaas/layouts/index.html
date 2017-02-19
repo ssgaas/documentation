@@ -1,17 +1,19 @@
+<!doctype html>
+<html>
+<head>
 {{ partial "header.html" . }}
-
-<div class="header">
-  <h1>{{ .Title }}</h1>
-  <h2>{{ .Site.Params.subtitle }}</h2>
+</head>
+<body>
+{{ partial "nav.html" . }}
+{{ range .Data.Pages }}
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </div>
+  </div>
 </div>
-
-<div class="content">
-  {{ range ( .Paginate (where .Data.Pages "Type" "post")).Pages }}
-    {{ .Render "summary"}}
-  {{ end }}
-
-  {{ partial "pagination.html" . }}
-
-</div>
-
+{{ end }}
 {{ partial "footer.html" . }}
+</body>
+</html>
