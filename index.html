@@ -1,213 +1,162 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html>
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.17" />
-
-  <title>SSGAAS Documentation</title>
-
-  
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
-
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
-  <!--<![endif]-->
-
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="/css/side-menu-old-ie.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="https://ssgaas.github.io/documentation/css/side-menu.css">
-  <!--<![endif]-->
-
-  <link rel="stylesheet" href="https://ssgaas.github.io/documentation/css/blackburn.css">
-
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-  
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-
-  
-  
-  <link rel="alternate" type="application/rss+xml" title="SSGAAS Documentation" href="https://ssgaas.github.io/documentation/index.xml" />
-  
-
-  
-
-  <link rel="shortcut icon" href="https://ssgaas.github.io/documentation/img/favicon.ico" type="image/x-icon" />
-
-  
-  
+	<meta name="generator" content="Hugo 0.17" />
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>ssgaas.com FAQ</title>
+<meta name="description" content="An static site generator as a service and continuous integration tool">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://ssgaas.github.io/faq/css/styles.css">
 
 </head>
-
-
 <body>
-<div id="layout">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
 
-  
-<a href="#menu" id="menuLink" class="menu-link">
-  
-  <span></span>
-</a>
-<div id="menu">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">SSGAAS</a>
+    </div>
 
-  
 
-  <div class="pure-menu">
-    <ul class="pure-menu-list">
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/documentation/"><i class='fa fa-home fa-fw'></i>Home</a>
-      
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="/features">Features</a></li>
+        <li><a href="/pricing">Princing</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://ssgaas.github.io/documentation">Documentation</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/contact-us">Contact Us</a></li>
+            <li><a href="/feedback">Send Us Feedback</a></li>
+          </ul>
         </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/documentation/howtos/"><i class='fa fa-list fa-fw'></i>How-To&#39;s</a>
-      
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/about">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="/changelog">Changelog</a></li>
+          </ul>
         </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/documentation/quickstart/"><i class='fa fa-list fa-fw'></i>Quickstart</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/documentation/reference/"><i class='fa fa-list fa-fw'></i>Reference</a>
-      
-        </li>
-      
-    </ul>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/sign-in">Sign In</a></li>
+        <li><a href="/sign-up">Sign Up</a></li>
+      </ul>
+    </div>
   </div>
-
-  <div class="pure-menu social">
-  <ul class="pure-menu-list">
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://ssgaas.github.io/documentation/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-  </ul>
-</div>
+</nav>
 
 
-  <div>
-  <div class="small-print">
-    <small></small>
-  </div>
-  <div class="small-print">
-    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <a href="https://ssgaas.github.io/documentation/reference/">reference</a>
+    </div>
   </div>
 </div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <a href="https://ssgaas.github.io/documentation/howtos/">howtos</a>
+    </div>
+  </div>
 </div>
 
-
-  <div id="main">
-
-
-<div class="header">
-  <h1>SSGAAS Documentation</h1>
-  <h2></h2>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <a href="https://ssgaas.github.io/documentation/quickstart/">quickstart</a>
+    </div>
+  </div>
 </div>
 
-<div class="content">
-  
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-md-offset-1">
+        <p class="slogan">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus
+          mus.</p>
+        <p class="slogan">Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+          sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+          vel, aliquet nec, vulputate eget, arcu.</p>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-4">
+            <ul>
+              <li class="main-title">SSGAAS</li>
+              <li>
+                <a href="/about">ABOUT US</a>
+              </li>
+              <li>
+                <a href="blog.html">BLOG</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul>
+              <li>PRODUCT</li>
+              <li>
+                <a href="/features">FEATURES</a>
+              </li>
+              <li>
+                <a href="/pricing">PRICING</a>
+              </li>
+              <li>
+                <a href="/changelog">CHANGELOG</a>
+              </li>
+              <li>
+                <a href="/feedback">SEND US FEEDBACK</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul>
+              <li>SUPPORT</li>
+              <li>
+                <a href="documentation.html">DOCUMENTATION</a>
+              </li>
+              <li>
+                <a href="https://ssgaas.github.io/faq">FAQ</a>
+              </li>
+              <li>
+                <a href="/privacy-policy">PRIVACY POLICY</a>
+              </li>
+              <li>
+                <a href="/terms-of-service">TERMS OF SERVICE</a>
+              </li>
+              <li>
+                <a href="/contact-us">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+</footer>
 
-  
-
-
-</div>
-
-</div>
-</div>
-<script src="https://ssgaas.github.io/documentation/js/ui.js"></script>
-
-
-
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+<script src="https://ssgaas.github.io/faq/js/index.js"></script>
 
 </body>
 </html>
-
