@@ -11,3 +11,21 @@ theme="ssgaas"
     weight = 0
     identifier = "home"
     url = "/"
+  [[menu.main]]
+    name = "Quickstart"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 1
+    identifier = "quickstart"
+    url = "/quickstart/"
+  [[menu.main]]
+    name = "How-To's"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 1
+    identifier = "howtos"
+    url = "/howtos/"
+  [[menu.main]]
+    name = "Reference"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 1
+    identifier = "reference"
+    url = "/reference/"
