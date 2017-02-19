@@ -1,4 +1,13 @@
 baseurl = "http://docs.ssgaas.com"
 title = "SSGAAS Documentation"
 languageCode = "en-us"
-theme="blackburn"
+theme="ssgaas"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"

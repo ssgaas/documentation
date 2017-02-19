@@ -1,0 +1,12 @@
+name = "ssgaas"
+license = "MIT"
+licenselink = "https://github.com/ssgaas/LICENSE.md"
+description = "Documentation Hugo theme for ssgaas"
+homepage = "https://ssgaas.com"
+tags = ["ssgaas", "documentation"]
+features = []
+min_version = 0.15
+
+[author]
+  name = "Raul Perez"
+  homepage = "http://repejota.com"

@@ -1,6 +1,4 @@
-# Blackburn
-
-Blackburn is a clear and responsive theme for [Hugo](//gohugo.io).
+# SSGAAS Documentation theme
 
 ## Overview
 
@@ -37,29 +35,6 @@ Blackburn is a clear and responsive theme for [Hugo](//gohugo.io).
 * Comments by Disqus
 * Icons by Font Awesome (v4.5.0)
 
-## Demo
-
-* [Demo](http://themes.gohugo.io/theme/blackburn/)
-* You can also see it in action on my personal website [here](http://yoshiharuyamashita.com/)
-
-## Screenshots
-
-![screenshot](https://raw.githubusercontent.com/yoshiharuyamashita/blackburn/master/images/screenshot.png)
-
-## Installation
-
-In your Hugo site directory, run:
-
-```shell
-$ mkdir themes
-$ cd themes
-$ git clone https://github.com/yoshiharuyamashita/blackburn.git
-```
-
-or download from [here](//github.com/yoshiharuyamashita/blackburn/archive/master.zip).
-
-See [Hugo Quickstart Guide](//gohugo.io/overview/quickstart/) for more information.
-
 ## Configuration
 
 Example config.toml:
@@ -80,7 +55,7 @@ paginate = 10
 [params]
   # Shown in the home page
   subtitle = "A Hugo Theme"
-  brand = "Blackburn"
+  brand = "ssgaas"
   googleAnalytics = "Your Google Analytics tracking ID"
   disqus = "Your Disqus shortname"
   # CSS name for highlight.js

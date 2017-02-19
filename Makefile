@@ -1,2 +1,2 @@
 serve:
-	hugo serve
+	hugo serve -v
